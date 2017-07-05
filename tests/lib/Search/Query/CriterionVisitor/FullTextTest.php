@@ -14,7 +14,7 @@ use eZ\Publish\API\Repository\Values\Content\Query\Criterion;
 use eZ\Publish\Core\FieldType\TextLine\SearchField;
 use eZ\Publish\Core\Search\Common\FieldNameResolver;
 use eZ\Publish\SPI\Search\FieldType\StringField;
-use EzSystems\EzPlatformSolrSearchEngine\Query\Common\QueryTranslator\WordVisitor;
+use EzSystems\EzPlatformSolrSearchEngine\Query\Common\QueryTranslator\Generator\WordVisitor;
 use EzSystems\EzPlatformSolrSearchEngine\Query\Content\CriterionVisitor\FullText;
 use EzSystems\EzPlatformSolrSearchEngine\Tests\Search\TestCase;
 use QueryTranslator\Languages\Galach\Generators;
